@@ -6074,11 +6074,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Administrator\\source\\repos\\PhotoStorage\\PhotoStorage.csproj",
+      "projectUniqueName": "C:\\PhotoStorage\\PhotoStorage.csproj",
       "projectName": "PhotoStorage",
-      "projectPath": "C:\\Users\\Administrator\\source\\repos\\PhotoStorage\\PhotoStorage.csproj",
+      "projectPath": "C:\\PhotoStorage\\PhotoStorage.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Administrator\\source\\repos\\PhotoStorage\\obj\\",
+      "outputPath": "C:\\PhotoStorage\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",

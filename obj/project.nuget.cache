@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "lcqmwGlfV45hlOTAe+gFcRShalD0Pgi5dUCZBMNEDsAJppjMhW+w1sJ6144pBMFnmXwN5ND8Nz3nT4znbhkJkA==",
+  "dgSpecHash": "tbGDK+75Hx9iTLtozIEhS2DrcErMFMkKDoAkRfaskd0GpsYCfExN1mPzob+Fwns4O1aJ8l1L+icLR/J0v3JI2w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Administrator\\source\\repos\\PhotoStorage\\PhotoStorage.csproj",
+  "projectFilePath": "C:\\PhotoStorage\\PhotoStorage.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.aspnetcore.razor\\2.2.0\\microsoft.aspnetcore.razor.2.2.0.nupkg.sha512",
