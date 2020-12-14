@@ -1,0 +1,33 @@
+﻿@using Photos.Models
+@model AgileEngineImagesResponse
+
+@{
+    ViewData["Title"] = "Photos";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Photos</h1>
+
+<table style="text-align:left" border="1">
+    <tr>
+        <th>id</th>
+        <th>cropped_picture</th>
+    </tr>
+
+    @foreach (var picture in Model.pictures)
+    {
+        <tr>
+            <td>@picture.id</td>
+            <td>@picture.cropped_picture</td>
+            <td>@Html.ActionLink("Details", "Details", new { id = picture.id })</td>
+        </tr>
+    }
+</table>
+<table border="1">
+    <tr>
+        @for (int i = 1; i <= Model.pageCount; i++)
+        {
+            <td>@Html.ActionLink(i.ToString(), "Index", new { page = i })</td>
+        }
+    </tr>
+</table>

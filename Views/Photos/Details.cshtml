@@ -1,0 +1,29 @@
+﻿@using Photos.Models
+@model AgileEnginePictureDetails
+
+@{
+    ViewData["Title"] = "Photo Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Photo Details</h1>
+
+<table style="text-align:left" border="1">
+    <tr>
+        <th>id</th>
+        <th>author</th>
+        <th>camera</th>
+        <th>tags</th>
+        <th>cropped_picture</th>
+        <th>full_picture</th>
+    </tr>
+    <tr>
+        <td>@Model.id</td>
+        <td>@Model.author</td>
+        <td>@Model.camera</td>
+        <td>@Model.tags</td>
+        <td>@Model.cropped_picture</td>
+        <td>@Model.full_picture</td>
+    </tr>
+</table>
+<a href='javascript:history.go(-1)'>Back</a>

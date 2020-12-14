@@ -1,0 +1,33 @@
+﻿@using Photos.Models
+@model List<AgileEnginePictureDetails>
+
+@{
+    ViewData["Title"] = "Search Results";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Search Results</h1>
+
+<table style="text-align:left" border="1">
+    <tr>
+        <th>id</th>
+        <th>author</th>
+        <th>camera</th>
+        <th>tags</th>
+        <th>cropped_picture</th>
+        <th>full_picture</th>
+    </tr>
+
+    @foreach (var pictureDetails in Model)
+    {
+        <tr>
+            <td>@pictureDetails.id</td>
+            <td>@pictureDetails.author</td>
+            <td>@pictureDetails.camera</td>
+            <td>@pictureDetails.tags</td>
+            <td>@pictureDetails.cropped_picture</td>
+            <td>@pictureDetails.full_picture</td>
+        </tr>
+    }
+</table>
+<a href='javascript:history.go(-1)'>Back</a>
